@@ -1,0 +1,16 @@
+# To install virtual environment 
+pip3 install virtualenv
+
+# To create a new virtual environment
+python3 -m venv "environment_name"
+
+# To activate the virutal environment
+source path/to/virtualenv/activate
+
+# To get the list of all the packages present in the virtual environment
+pip3 freeze > requirements.txt
+
+Provided you should have activated your virtualenv
+
+# To deactivate virtualenv
+deactivate
